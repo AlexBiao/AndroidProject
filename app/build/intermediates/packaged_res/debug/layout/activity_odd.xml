@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:id="@+id/cxk2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello everyone, I am CXK, a personal trainee who has been practicing for two and a half years. I like singing, dancing, Rap and basketball. Music! \n\n\nIn future programs, I have prepared many original works of my own lyrics, composition and choreography. If you like them, please vote for me more!"
+        android:textSize="20sp">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
