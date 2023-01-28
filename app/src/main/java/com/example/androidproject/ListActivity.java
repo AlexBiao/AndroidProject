@@ -23,7 +23,7 @@ public class ListActivity extends AppCompatActivity implements RecyclerViewInter
         init_View();
 
 
-        arrayList.add(new Item("鸡你太",R.drawable.ji2));
+        arrayList.add(new Item("鸡你太美",R.drawable.ji2));
         arrayList.add(new Item("守护最好的鸡哥",R.drawable.ji2));
         arrayList.add(new Item("非ikun勿进",R.drawable.ji2));
         arrayList.add(new Item("你干嘛哎呦",R.drawable.ji2));
