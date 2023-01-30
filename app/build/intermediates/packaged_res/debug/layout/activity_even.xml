@@ -8,8 +8,7 @@
         android:id="@+id/cxk1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="全民制作人们大家好，我是练习时长两年半的个人练习生蔡徐坤，喜欢唱、跳、Rap、篮球。Music！\n\n\n
-在今后的节目中，我还准备了很多我自己作词、作曲、编舞的原创作品。期待的话，请多多为我投票吧！"
+        android:text=""
 
         android:textSize="20sp">
 

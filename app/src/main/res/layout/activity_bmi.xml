@@ -6,9 +6,10 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/bmi_title"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="BMI CALCULATOR"
+        android:text="gggg"
         android:textSize="45sp"
         android:gravity="center"
         style="@style/CardView.Light"

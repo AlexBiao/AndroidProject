@@ -14,9 +14,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.DecimalFormat;
 
 public class BmiActivity extends AppCompatActivity {
-    TextView result, comment;
+    TextView result, comment, bmiTitle;
     EditText height_input, weight_input;
     Button calculate;
+
+    String commentText;
+    int resID;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +34,13 @@ public class BmiActivity extends AppCompatActivity {
         weight_input = findViewById(R.id.weight_input);
         result = findViewById(R.id.result);
         comment = findViewById(R.id.comment);
+        bmiTitle = findViewById(R.id.bmi_title);
         calculate = findViewById(R.id.calculate_bmi);
         calculate.setOnClickListener(actionBtnOnClick);
+        resID = getResources().getIdentifier("bmi_title", "string", getPackageName());
+        commentText = getString(resID);
+        bmiTitle.setText(commentText);
+
     }
 
     private View.OnClickListener actionBtnOnClick = new View.OnClickListener()
@@ -66,18 +75,24 @@ public class BmiActivity extends AppCompatActivity {
                         result.setText(result_String);
                         if (result_data < 18)
                         {
-                            comment.setText("You are underweight!");
+                            resID = getResources().getIdentifier("underweight", "string", getPackageName());
+                            commentText = getString(resID);
+                            comment.setText(commentText);
                             comment.setTextColor(Color.rgb(255, 0, 0));
                         }
                         else if (result_data <= 24 & result_data >= 18)
                         {
-                            comment.setText("You are healthy!");
+                            resID = getResources().getIdentifier("healthy", "string", getPackageName());
+                            commentText = getString(resID);
+                            comment.setText(commentText);
                             comment.setTextColor(Color.rgb(0, 255, 0));
                         }
 
                         else if (result_data > 24)
                         {
-                            comment.setText("You are overweight!");
+                            resID = getResources().getIdentifier("overweight", "string", getPackageName());
+                            commentText = getString(resID);
+                            comment.setText(commentText);
                             comment.setTextColor(Color.rgb(255, 0, 0));
                         }
 

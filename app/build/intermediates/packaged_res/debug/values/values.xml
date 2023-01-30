@@ -8,6 +8,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">AndroidProject</string>
+    <string name="bmi_title">BMI CALCULATOR</string>
+    <string name="chinese">全民制作人们大家好，我是练习时长两年半的个人练习生蔡徐坤，喜欢唱、跳、Rap、篮球。Music！\n\n\n
+在今后的节目中，我还准备了很多我自己作词、作曲、编舞的原创作品。期待的话，请多多为我投票吧！</string>
+    <string name="english">Hello everyone, I am CXK, a personal trainee who has been practicing for two and a half years. I like singing, dancing, Rap and basketball. Music! \n\n\nIn future programs, I have prepared many original works of my own lyrics, composition and choreography. If you like them, please vote for me more!</string>
+    <string name="healthy">Your are healthy!</string>
+    <string name="overweight">Your are overweight!</string>
+    <string name="underweight">Your are underweight!</string>
     <style name="Theme.AndroidProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
