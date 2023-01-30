@@ -7,6 +7,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="AC">AC</string>
     <string name="app_name">AndroidProject</string>
     <string name="bmi">BMI</string>
     <string name="bmi_title">BMI CALCULATOR</string>
@@ -19,12 +20,34 @@
     <string name="cxk3">Rap</string>
     <string name="cxk4">篮球</string>
     <string name="cxk5">守护最好的鸡哥</string>
+    <string name="divide">/</string>
+    <string name="eight">8</string>
     <string name="english">Hello everyone, I am CXK, a personal trainee who has been practicing for two and a half years. I like singing, dancing, Rap and basketball. Music! \n\n\nIn future programs, I have prepared many original works of my own lyrics, composition and choreography. If you like them, please vote for me more!</string>
+    <string name="equals">=</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
     <string name="healthy">Your are healthy!</string>
+    <string name="height_input">Enter your height</string>
+    <string name="height_title">HEIGHT:</string>
+    <string name="height_unit">cm</string>
     <string name="listview">LIST VIEW</string>
-    <string name="main_title">Super Handy Tool</string>
+    <string name="main_title">Siuuuper Handy Tool</string>
+    <string name="message">Your BMI is: </string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="nine">9</string>
+    <string name="one">1</string>
     <string name="overweight">Your are overweight!</string>
+    <string name="plus">+</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
     <string name="underweight">Your are underweight!</string>
+    <string name="weight_input">Enter your weight</string>
+    <string name="weight_title">WEIGHT:</string>
+    <string name="weight_unit">kg</string>
+    <string name="zero">0</string>
     <style name="Theme.AndroidProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

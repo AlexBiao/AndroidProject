@@ -14,7 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.DecimalFormat;
 
 public class BmiActivity extends AppCompatActivity {
-    TextView result, comment, bmiTitle;
+    TextView result, comment, bmiTitle, heightTitle, heightUnit;
+    TextView weightTitle, weightUnit, yourBmi;
     EditText height_input, weight_input;
     Button calculate;
     String commentText;
@@ -29,15 +30,36 @@ public class BmiActivity extends AppCompatActivity {
     }
 
     private void init_View() {
+        heightTitle = findViewById(R.id.height_title);
+        heightTitle.setText(getString(R.string.height_title));
+
+        weightTitle = findViewById(R.id.weight_title);
+        weightTitle.setText(getString(R.string.weight_title));
+
+        weightUnit = findViewById(R.id.weight_unit);
+        weightUnit.setText(getString(R.string.weight_unit));
+
+        heightUnit = findViewById(R.id.height_unit);
+        heightUnit.setText(getString(R.string.height_unit));
+
         height_input = findViewById(R.id.height_input);
+        height_input.setHint(getString(R.string.height_input));
+
         weight_input = findViewById(R.id.weight_input);
+        weight_input.setHint(getString(R.string.weight_input));
+
         result = findViewById(R.id.result);
         comment = findViewById(R.id.comment);
-        bmiTitle = findViewById(R.id.bmi_title);
+
+        yourBmi = findViewById(R.id.message);
+        yourBmi.setText(getString(R.string.message));
+
         calculate = findViewById(R.id.calculate_bmi);
+        calculate.setText(getString(R.string.calculate));
         calculate.setOnClickListener(actionBtnOnClick);
-        commentText = getString(R.string.bmi_title);
-        bmiTitle.setText(commentText);
+
+        bmiTitle = findViewById(R.id.bmi_title);
+        bmiTitle.setText(getString(R.string.bmi_title));
 
     }
 
@@ -60,7 +82,7 @@ public class BmiActivity extends AppCompatActivity {
                     double weight = Double.parseDouble(w);
                     double result_data = weight / ((height / 100) * (height / 100));
 
-                    DecimalFormat df = new DecimalFormat("0.000");
+                    DecimalFormat df = new DecimalFormat("0.00");
                     String result_String = df.format(result_data);
                     Toast.makeText(getApplicationContext(), "BMI is: " + result_String, Toast.LENGTH_SHORT).show();
                     result.setText(result_String);

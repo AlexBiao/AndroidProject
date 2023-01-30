@@ -7,14 +7,42 @@
     <string name="chinese">全民制作人们大家好，我是练习时长两年半的个人练习生蔡徐坤，喜欢唱、跳、Rap、篮球。Music！\n\n\n
 在今后的节目中，我还准备了很多我自己作词、作曲、编舞的原创作品。期待的话，请多多为我投票吧！</string>
     <string name="english">Hello everyone, I am CXK, a personal trainee who has been practicing for two and a half years. I like singing, dancing, Rap and basketball. Music! \n\n\nIn future programs, I have prepared many original works of my own lyrics, composition and choreography. If you like them, please vote for me more!</string>
-    <string name="main_title">Super Handy Tool</string>
+    <string name="main_title">Siuuuper Handy Tool</string>
     <string name="calculate">CALCULATE</string>
     <string name="listview">LIST VIEW</string>
     <string name="calculator">Calculator</string>
     <string name="bmi">BMI</string>
+
     <string name="cxk1">唱</string>
     <string name="cxk2">跳</string>
     <string name="cxk3">Rap</string>
     <string name="cxk4">篮球</string>
     <string name="cxk5">守护最好的鸡哥</string>
+
+    <string name="height_title">HEIGHT:</string>
+    <string name="weight_title">WEIGHT:</string>
+    <string name="height_input">Enter your height</string>
+    <string name="weight_input">Enter your weight</string>
+    <string name="height_unit">cm</string>
+    <string name="weight_unit">kg</string>
+    <string name="message">Your BMI is: </string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+    <string name="equals">=</string>
+    <string name="AC">AC</string>
 </resources>

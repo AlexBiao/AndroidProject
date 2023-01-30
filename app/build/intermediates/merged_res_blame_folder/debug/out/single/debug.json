@@ -8,10 +8,6 @@
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\layout\\activity_calculator.xml"
     },
     {
-        "merged": "com.example.androidproject.app-merged_res-26:/layout_activity_bmi.xml.flat",
-        "source": "com.example.androidproject.app-main-28:/layout/activity_bmi.xml"
-    },
-    {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -46,6 +42,10 @@
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.androidproject.app-merged_res-26:/layout_activity_calculator.xml.flat",
+        "source": "com.example.androidproject.app-main-28:/layout/activity_calculator.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\layout_list_item.xml.flat",

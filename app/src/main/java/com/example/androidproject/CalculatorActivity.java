@@ -25,30 +25,94 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
         result = findViewById(R.id.result);
         solution = findViewById(R.id.solution);
 
-        assignId(one, R.id.button_1);
-        assignId(two, R.id.button_2);
-        assignId(three, R.id.button_3);
-        assignId(four, R.id.button_4);
-        assignId(five, R.id.button_5);
-        assignId(six, R.id.button_6);
-        assignId(seven, R.id.button_7);
-        assignId(eight, R.id.button_8);
-        assignId(nine, R.id.button_9);
-        assignId(zero, R.id.button_0);
 
-        assignId(button_Ac, R.id.button_ac);
-        assignId(button_Divide, R.id.button_divide);
-        assignId(button_Minus, R.id.button_minus);
-        assignId(button_Multiply, R.id.button_multiply);
-        assignId(button_Plus, R.id.button_plus);
-        assignId(button_Equal, R.id.button_equal);
+
+        ini_View();
     }
 
-    void assignId(MaterialButton btn, int id)
+    void ini_View()
     {
-        btn = findViewById(id);
-        btn.setOnClickListener(this);
+        zero = findViewById(R.id.button_0);
+        zero.setText(getString(R.string.zero));
+        zero.setOnClickListener(this);
+
+        one = findViewById(R.id.button_1);
+        one.setText(getString(R.string.one));
+        one.setOnClickListener(this);
+
+
+        two = findViewById(R.id.button_2);
+        two.setText(getString(R.string.two));
+        two.setOnClickListener(this);
+
+
+        three = findViewById(R.id.button_3);
+        three.setText(getString(R.string.three));
+        three.setOnClickListener(this);
+
+
+        four = findViewById(R.id.button_4);
+        four.setText(getString(R.string.four));
+        four.setOnClickListener(this);
+
+
+        five = findViewById(R.id.button_5);
+        five.setText(getString(R.string.five));
+        five.setOnClickListener(this);
+
+
+        six = findViewById(R.id.button_6);
+        six.setText(getString(R.string.six));
+        six.setOnClickListener(this);
+
+
+        seven = findViewById(R.id.button_7);
+        seven.setText(getString(R.string.seven));
+        seven.setOnClickListener(this);
+
+
+        eight = findViewById(R.id.button_8);
+        eight.setText(getString(R.string.eight));
+        eight.setOnClickListener(this);
+
+
+        nine = findViewById(R.id.button_9);
+        nine.setText(getString(R.string.nine));
+        nine.setOnClickListener(this);
+
+
+        button_Ac = findViewById(R.id.button_ac);
+        button_Ac.setText(getString(R.string.AC));
+        button_Ac.setOnClickListener(this);
+
+
+        button_Divide = findViewById(R.id.button_divide);
+        button_Divide.setText(getString(R.string.divide));
+        button_Divide.setOnClickListener(this);
+
+
+        button_Plus = findViewById(R.id.button_plus);
+        button_Plus.setText(getString(R.string.plus));
+        button_Plus.setOnClickListener(this);
+
+
+        button_Minus = findViewById(R.id.button_minus);
+        button_Minus.setText(getString(R.string.minus));
+        button_Minus.setOnClickListener(this);
+
+
+        button_Multiply = findViewById(R.id.button_multiply);
+        button_Multiply.setText(getString(R.string.multiply));
+        button_Multiply.setOnClickListener(this);
+
+
+        button_Equal = findViewById(R.id.button_equal);
+        button_Equal.setText(getString(R.string.equals));
+        button_Equal.setOnClickListener(this);
+
+
     }
+
 
     @Override
     public void onClick(View view)
@@ -61,7 +125,6 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
         {
             solution.setText("");
             result.setText("0");
-
             return;
         }
 

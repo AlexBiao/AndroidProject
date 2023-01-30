@@ -29,8 +29,6 @@ public class ListActivity extends AppCompatActivity implements RecyclerViewInter
             arrayList.add(new Item(getString(R.string.cxk5), R.drawable.ji2));
         }
 
-
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new Adapter(getApplicationContext(), arrayList, this));
 
@@ -40,7 +38,6 @@ public class ListActivity extends AppCompatActivity implements RecyclerViewInter
     {
         recyclerView = findViewById(R.id.recyclerView);
     }
-
 
     @Override
     public void onClick(int position)

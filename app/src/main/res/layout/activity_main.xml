@@ -35,10 +35,10 @@
         android:layout_gravity="center"
         android:layout_marginTop="350dp"
 
+
         android:layout_centerHorizontal="true"
         android:backgroundTint="#03A9F4"
-
-        android:text="Calculate"
+        android:text=""
         android:textSize="18sp"
         android:textColor="@color/white">
     </Button>
@@ -49,11 +49,10 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="500dp"
-
         android:layout_marginLeft="100dp"
         android:backgroundTint="#03A9F4"
         android:layout_centerHorizontal="true"
-        android:text="List View"
+        android:text=""
         android:textSize="18sp"
         android:textColor="@color/white">
     </Button>
