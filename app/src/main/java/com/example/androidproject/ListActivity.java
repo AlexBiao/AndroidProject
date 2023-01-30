@@ -52,6 +52,5 @@ public class ListActivity extends AppCompatActivity implements RecyclerViewInter
             intent.setClass(ListActivity.this, EvenActivity.class);
         }
         startActivity(intent);
-
     }
 }
