@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:id="@+id/main"
     android:orientation="horizontal">
 
     <Button
@@ -15,7 +16,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginBottom="20dp"
         android:layout_centerHorizontal="true"
-        android:background="#009688"
+        android:backgroundTint="#E91E63"
 
         android:text="Calculate"
         android:textSize="18sp"
@@ -30,7 +31,7 @@
         android:layout_marginTop="400dp"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="100dp"
-        android:background="#9C27B0"
+        android:backgroundTint="#FF9800"
         android:layout_centerHorizontal="true"
         android:text="List View"
         android:textSize="18sp"

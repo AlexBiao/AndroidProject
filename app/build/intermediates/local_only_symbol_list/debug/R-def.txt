@@ -31,13 +31,16 @@ id buttons_layout
 id calculate
 id calculate_bmi
 id calculator
+id comment
 id cxk1
 id cxk2
 id height_input
 id height_title
 id height_unit
+id id_pop_layout
 id image
 id listView
+id main
 id message
 id recyclerView
 id result

@@ -1,7 +1,9 @@
 package com.example.androidproject;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -12,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.DecimalFormat;
 
 public class BmiActivity extends AppCompatActivity {
-    TextView result;
+    TextView result, comment;
     EditText height_input, weight_input;
     Button calculate;
 
@@ -27,6 +29,7 @@ public class BmiActivity extends AppCompatActivity {
         height_input = findViewById(R.id.height_input);
         weight_input = findViewById(R.id.weight_input);
         result = findViewById(R.id.result);
+        comment = findViewById(R.id.comment);
         calculate = findViewById(R.id.calculate_bmi);
         calculate.setOnClickListener(actionBtnOnClick);
     }
@@ -46,19 +49,37 @@ public class BmiActivity extends AppCompatActivity {
 
                     if (h.equals("") || w.equals("") || h.equals("0") || w.equals("0"))
                     {
-                        Toast.makeText(getApplicationContext(), "Input can't be 0!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Enter BOTH height and weight!", Toast.LENGTH_LONG).show();
                     }
 
                     else
                     {
+                        InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+                        inputMethodManager.hideSoftInputFromWindow(view.getApplicationWindowToken(),0);
                         double height = Double.parseDouble(h);
                         double weight = Double.parseDouble(w);
-                        double result_data = weight / (height * height);
+                        double result_data = weight / ((height/100) * (height/100));
 
                         DecimalFormat df = new DecimalFormat("0.000");
                         String result_String = df.format(result_data);
                         Toast.makeText(getApplicationContext(), "BMI is: " + result_String, Toast.LENGTH_SHORT).show();
                         result.setText(result_String);
+                        if (result_data < 18)
+                        {
+                            comment.setText("You are underweight!");
+                            comment.setTextColor(Color.rgb(255, 0, 0));
+                        }
+                        else if (result_data <= 24 & result_data >= 18)
+                        {
+                            comment.setText("You are healthy!");
+                            comment.setTextColor(Color.rgb(0, 255, 0));
+                        }
+
+                        else if (result_data > 24)
+                        {
+                            comment.setText("You are overweight!");
+                            comment.setTextColor(Color.rgb(255, 0, 0));
+                        }
 
                     }
                     break;
