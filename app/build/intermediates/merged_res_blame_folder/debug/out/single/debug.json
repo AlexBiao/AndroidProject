@@ -8,6 +8,10 @@
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\layout\\activity_calculator.xml"
     },
     {
+        "merged": "com.example.androidproject.app-merged_res-26:/layout_activity_bmi.xml.flat",
+        "source": "com.example.androidproject.app-main-28:/layout/activity_bmi.xml"
+    },
+    {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\drawable_linghua.jpg.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\drawable\\linghua.jpg"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\layout_activity_list.xml.flat",
@@ -66,10 +74,6 @@
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-main-28:\\mipmap-anydpi-v33\\ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.androidproject.app-merged_res-26:/layout_activity_calculator_or_bmi.xml.flat",
-        "source": "com.example.androidproject.app-main-28:/layout/activity_calculator_or_bmi.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\7.5\\com.example.androidproject.app-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",

@@ -22,9 +22,10 @@ public class CalculatorOrBmiActivity extends AppCompatActivity
     private void init_View()
     {
         calculator_btn = findViewById(R.id.calculator);
+        calculator_btn.setText(R.string.calculator);
         calculator_btn.setOnClickListener(actionBtnOnClick);
-
         bmi_btn = findViewById(R.id.bmi);
+        bmi_btn.setText(R.string.bmi);
         bmi_btn.setOnClickListener(actionBtnOnClick);
     }
 

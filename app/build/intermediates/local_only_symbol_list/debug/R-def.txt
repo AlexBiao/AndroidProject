@@ -10,6 +10,7 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ji2
+drawable linghua
 id bmi
 id bmi_title
 id button_0
@@ -42,6 +43,7 @@ id id_pop_layout
 id image
 id listView
 id main
+id main_title
 id message
 id recyclerView
 id result
@@ -61,10 +63,20 @@ layout list_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string bmi
 string bmi_title
+string calculate
+string calculator
 string chinese
+string cxk1
+string cxk2
+string cxk3
+string cxk4
+string cxk5
 string english
 string healthy
+string listview
+string main_title
 string overweight
 string underweight
 style Theme.AndroidProject

@@ -2462,6 +2462,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ji2
+drawable linghua
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2776,6 +2777,7 @@ id listMode
 id listView
 id list_item
 id main
+id main_title
 id masked
 id match_constraint
 id match_parent
@@ -3236,15 +3238,23 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string bmi
 string bmi_title
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string calculate
+string calculator
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chinese
 string chip_text
 string clear_text_end_icon_content_description
+string cxk1
+string cxk2
+string cxk3
+string cxk4
+string cxk5
 string english
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3254,6 +3264,7 @@ string healthy
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string listview
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3279,6 +3290,7 @@ string m3_sys_typescale_label_small_font
 string m3_sys_typescale_title_large_font
 string m3_sys_typescale_title_medium_font
 string m3_sys_typescale_title_small_font
+string main_title
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection

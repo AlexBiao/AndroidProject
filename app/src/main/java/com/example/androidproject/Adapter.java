@@ -51,8 +51,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder>{
     public class MyViewHolder extends RecyclerView.ViewHolder
     {
         RecyclerViewInterface recyclerViewInterface;
-
-
         ImageView image;
         TextView text;
         public MyViewHolder(@NonNull View itemView, RecyclerViewInterface recyclerViewInterface) {

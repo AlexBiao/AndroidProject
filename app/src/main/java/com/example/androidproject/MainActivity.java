@@ -13,15 +13,18 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity
 {
-    Button calculate_btn, listView_btn, calculator_btn, bmi_btn;;
+    Button calculate_btn, listView_btn, calculator_btn, bmi_btn;
+    TextView mainTitle;
 
-    private PopupWindow popCalculate, popListView;
-    private View calculateView, listViewView;
+
+    private PopupWindow popCalculate;
+    private View calculateView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -35,10 +38,15 @@ public class MainActivity extends AppCompatActivity
     {
 
         calculate_btn = findViewById(R.id.calculate);
+        calculate_btn.setText(getString(R.string.calculate));
         calculate_btn.setOnClickListener(actionBtnOnClick);
 
         listView_btn = findViewById(R.id.listView);
+        listView_btn.setText(getString(R.string.listview));
         listView_btn.setOnClickListener(actionBtnOnClick);
+
+        mainTitle = findViewById(R.id.main_title);
+        mainTitle.setText(getString(R.string.main_title));
         go_to_calculate();
     }
 
