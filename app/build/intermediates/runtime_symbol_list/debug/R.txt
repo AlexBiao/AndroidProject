@@ -3255,6 +3255,7 @@ int string cxk2 0x7f0f002c
 int string cxk3 0x7f0f002d
 int string cxk4 0x7f0f002e
 int string cxk5 0x7f0f002f
+int string cxk6 0x7f0f00ab
 int string divide 0x7f0f0030
 int string eight 0x7f0f0031
 int string english 0x7f0f0032

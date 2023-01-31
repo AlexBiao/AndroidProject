@@ -26,6 +26,7 @@ public class ListActivity extends AppCompatActivity implements RecyclerViewInter
             arrayList.add(new Item(getString(R.string.cxk2), R.drawable.ji2));
             arrayList.add(new Item(getString(R.string.cxk3), R.drawable.ji2));
             arrayList.add(new Item(getString(R.string.cxk4), R.drawable.ji2));
+            arrayList.add(new Item(getString(R.string.cxk6), R.drawable.ji2));
             arrayList.add(new Item(getString(R.string.cxk5), R.drawable.ji2));
         }
 

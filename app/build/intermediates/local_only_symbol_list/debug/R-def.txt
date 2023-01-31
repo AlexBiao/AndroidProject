@@ -74,6 +74,7 @@ string cxk2
 string cxk3
 string cxk4
 string cxk5
+string cxk6
 string divide
 string eight
 string english
