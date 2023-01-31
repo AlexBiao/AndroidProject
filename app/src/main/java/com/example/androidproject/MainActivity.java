@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity
 {
     Button calculate_btn, listView_btn, calculator_btn, bmi_btn;
     TextView mainTitle;
-
-
     private PopupWindow popCalculate;
     private View calculateView;
 
@@ -88,10 +86,7 @@ public class MainActivity extends AppCompatActivity
                     popCalculate.dismiss();
                     break;
 
-
-
-
-                default:
+                    default:
                     break;
             }
         }
@@ -113,20 +108,19 @@ public class MainActivity extends AppCompatActivity
     {
         popCalculate = new PopupWindow(
                 popupView,
-                LinearLayout.LayoutParams.MATCH_PARENT,                 // width
-                LinearLayout.LayoutParams.MATCH_PARENT);                // height
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT);
 
-        // Determine the location of the popupview.
         popCalculate.showAtLocation(this.findViewById(R.id.main), Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 0);
 
         popCalculate.setOutsideTouchable(true);
 
         WindowManager.LayoutParams lp = getWindow().getAttributes();
-        // 100% => 1f, 0% => 0.0f
+
         lp.alpha =  0.2f;
         getWindow().setAttributes(lp);
 
-        popupView.setOnTouchListener(new View.OnTouchListener() {// 如果触摸位置在窗口外面则销毁
+        popupView.setOnTouchListener(new View.OnTouchListener() {
 
             @Override
             public boolean onTouch(View v, MotionEvent event) {

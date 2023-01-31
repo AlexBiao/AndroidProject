@@ -15,7 +15,7 @@
         android:layout_height="50dp"
         android:id="@+id/text"
         android:layout_toEndOf="@+id/image"
-        android:text="巅峰产生虚假的拥护，黄昏见证真正的信徒"
+        android:text=""
         android:textSize="15sp"
         android:gravity="center"
         >

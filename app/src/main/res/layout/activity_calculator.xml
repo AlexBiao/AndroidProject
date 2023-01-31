@@ -173,10 +173,10 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="32sp"
+                android:textSize="20sp"
                 android:textColor="@color/white"
                 android:text=""
-                android:id="@+id/button_equal"
+                android:id="@+id/button_ac"
                 android:layout_margin="12dp"
                 />
             <com.google.android.material.button.MaterialButton
@@ -227,10 +227,10 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="20sp"
+                android:textSize="32sp"
                 android:textColor="@color/white"
                 android:text=""
-                android:id="@+id/button_ac"
+                android:id="@+id/button_equal"
                 android:layout_margin="12dp"
                 />
             <com.google.android.material.button.MaterialButton
