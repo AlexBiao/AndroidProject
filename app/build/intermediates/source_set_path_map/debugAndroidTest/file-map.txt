@@ -1,0 +1,7 @@
+com.example.androidproject.test.app-androidTest-0 D:\AndroidProject\app\build\generated\res\resValues\androidTest\debug
+com.example.androidproject.test.app-androidTest-1 D:\AndroidProject\app\build\generated\res\rs\androidTest\debug
+com.example.androidproject.test.app-mergeDebugAndroidTestResources-2 D:\AndroidProject\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.androidproject.test.app-mergeDebugAndroidTestResources-3 D:\AndroidProject\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.androidproject.test.app-merged_res-4 D:\AndroidProject\app\build\intermediates\merged_res\debugAndroidTest
+com.example.androidproject.test.app-androidTest-5 D:\AndroidProject\app\src\androidTest\res
+com.example.androidproject.test.app-androidTestDebug-6 D:\AndroidProject\app\src\androidTestDebug\res

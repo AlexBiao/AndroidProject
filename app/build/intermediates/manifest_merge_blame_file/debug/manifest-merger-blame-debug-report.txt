@@ -30,97 +30,96 @@
 20-->D:\AndroidProject\app\src\main\AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
 21-->D:\AndroidProject\app\src\main\AndroidManifest.xml:12:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.AndroidProject" >
-23-->D:\AndroidProject\app\src\main\AndroidManifest.xml:13:9-52
-24        <activity
-24-->D:\AndroidProject\app\src\main\AndroidManifest.xml:15:9-27:20
-25            android:name="com.example.androidproject.MainActivity"
-25-->D:\AndroidProject\app\src\main\AndroidManifest.xml:16:13-41
-26            android:exported="true" >
-26-->D:\AndroidProject\app\src\main\AndroidManifest.xml:17:13-36
-27            <intent-filter>
-27-->D:\AndroidProject\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->D:\AndroidProject\app\src\main\AndroidManifest.xml:19:17-69
-28-->D:\AndroidProject\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\AndroidProject\app\src\main\AndroidManifest.xml:21:17-77
-30-->D:\AndroidProject\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32
-33            <meta-data
-33-->D:\AndroidProject\app\src\main\AndroidManifest.xml:24:13-26:36
-34                android:name="android.app.lib_name"
-34-->D:\AndroidProject\app\src\main\AndroidManifest.xml:25:17-52
-35                android:value="" />
-35-->D:\AndroidProject\app\src\main\AndroidManifest.xml:26:17-33
-36        </activity>
-37        <activity
-37-->D:\AndroidProject\app\src\main\AndroidManifest.xml:29:9-32:20
-38            android:name="com.example.androidproject.CalculatorActivity"
-38-->D:\AndroidProject\app\src\main\AndroidManifest.xml:30:13-47
-39            android:exported="true" >
-39-->D:\AndroidProject\app\src\main\AndroidManifest.xml:31:13-36
-40        </activity>
-41        <activity
-41-->D:\AndroidProject\app\src\main\AndroidManifest.xml:34:9-37:20
-42            android:name="com.example.androidproject.CalculatorOrBmiActivity"
-42-->D:\AndroidProject\app\src\main\AndroidManifest.xml:35:13-52
-43            android:exported="true" >
-43-->D:\AndroidProject\app\src\main\AndroidManifest.xml:36:13-36
-44        </activity>
-45        <activity
-45-->D:\AndroidProject\app\src\main\AndroidManifest.xml:39:9-42:20
-46            android:name="com.example.androidproject.BmiActivity"
-46-->D:\AndroidProject\app\src\main\AndroidManifest.xml:40:13-40
-47            android:exported="true" >
-47-->D:\AndroidProject\app\src\main\AndroidManifest.xml:41:13-36
-48        </activity>
-49        <activity
-49-->D:\AndroidProject\app\src\main\AndroidManifest.xml:44:9-47:20
-50            android:name="com.example.androidproject.ListActivity"
-50-->D:\AndroidProject\app\src\main\AndroidManifest.xml:45:13-41
-51            android:exported="true" >
-51-->D:\AndroidProject\app\src\main\AndroidManifest.xml:46:13-36
-52        </activity>
-53        <activity
-53-->D:\AndroidProject\app\src\main\AndroidManifest.xml:49:9-52:20
-54            android:name="com.example.androidproject.OddActivity"
-54-->D:\AndroidProject\app\src\main\AndroidManifest.xml:50:13-40
-55            android:exported="true" >
-55-->D:\AndroidProject\app\src\main\AndroidManifest.xml:51:13-36
-56        </activity>
-57        <activity
-57-->D:\AndroidProject\app\src\main\AndroidManifest.xml:54:9-57:20
-58            android:name="com.example.androidproject.EvenActivity"
-58-->D:\AndroidProject\app\src\main\AndroidManifest.xml:55:13-41
-59            android:exported="true" >
-59-->D:\AndroidProject\app\src\main\AndroidManifest.xml:56:13-36
-60        </activity>
-61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-64            android:authorities="com.example.androidproject.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jenny\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jenny\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jenny\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-72        </provider>
-73    </application>
-74
-75</manifest>
+22        android:theme="@style/Theme.AndroidProject" >
+22-->D:\AndroidProject\app\src\main\AndroidManifest.xml:13:9-52
+23        <activity
+23-->D:\AndroidProject\app\src\main\AndroidManifest.xml:15:9-27:20
+24            android:name="com.example.androidproject.MainActivity"
+24-->D:\AndroidProject\app\src\main\AndroidManifest.xml:16:13-41
+25            android:exported="true" >
+25-->D:\AndroidProject\app\src\main\AndroidManifest.xml:17:13-36
+26            <intent-filter>
+26-->D:\AndroidProject\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\AndroidProject\app\src\main\AndroidManifest.xml:19:17-69
+27-->D:\AndroidProject\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\AndroidProject\app\src\main\AndroidManifest.xml:21:17-77
+29-->D:\AndroidProject\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31
+32            <meta-data
+32-->D:\AndroidProject\app\src\main\AndroidManifest.xml:24:13-26:36
+33                android:name="android.app.lib_name"
+33-->D:\AndroidProject\app\src\main\AndroidManifest.xml:25:17-52
+34                android:value="" />
+34-->D:\AndroidProject\app\src\main\AndroidManifest.xml:26:17-33
+35        </activity>
+36        <activity
+36-->D:\AndroidProject\app\src\main\AndroidManifest.xml:29:9-32:20
+37            android:name="com.example.androidproject.CalculatorActivity"
+37-->D:\AndroidProject\app\src\main\AndroidManifest.xml:30:13-47
+38            android:exported="true" >
+38-->D:\AndroidProject\app\src\main\AndroidManifest.xml:31:13-36
+39        </activity>
+40        <activity
+40-->D:\AndroidProject\app\src\main\AndroidManifest.xml:34:9-37:20
+41            android:name="com.example.androidproject.CalculatorOrBmiActivity"
+41-->D:\AndroidProject\app\src\main\AndroidManifest.xml:35:13-52
+42            android:exported="true" >
+42-->D:\AndroidProject\app\src\main\AndroidManifest.xml:36:13-36
+43        </activity>
+44        <activity
+44-->D:\AndroidProject\app\src\main\AndroidManifest.xml:39:9-42:20
+45            android:name="com.example.androidproject.BmiActivity"
+45-->D:\AndroidProject\app\src\main\AndroidManifest.xml:40:13-40
+46            android:exported="true" >
+46-->D:\AndroidProject\app\src\main\AndroidManifest.xml:41:13-36
+47        </activity>
+48        <activity
+48-->D:\AndroidProject\app\src\main\AndroidManifest.xml:44:9-47:20
+49            android:name="com.example.androidproject.ListActivity"
+49-->D:\AndroidProject\app\src\main\AndroidManifest.xml:45:13-41
+50            android:exported="true" >
+50-->D:\AndroidProject\app\src\main\AndroidManifest.xml:46:13-36
+51        </activity>
+52        <activity
+52-->D:\AndroidProject\app\src\main\AndroidManifest.xml:49:9-52:20
+53            android:name="com.example.androidproject.OddActivity"
+53-->D:\AndroidProject\app\src\main\AndroidManifest.xml:50:13-40
+54            android:exported="true" >
+54-->D:\AndroidProject\app\src\main\AndroidManifest.xml:51:13-36
+55        </activity>
+56        <activity
+56-->D:\AndroidProject\app\src\main\AndroidManifest.xml:54:9-57:20
+57            android:name="com.example.androidproject.EvenActivity"
+57-->D:\AndroidProject\app\src\main\AndroidManifest.xml:55:13-41
+58            android:exported="true" >
+58-->D:\AndroidProject\app\src\main\AndroidManifest.xml:56:13-36
+59        </activity>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+63            android:authorities="com.example.androidproject.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jenny\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jenny\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jenny\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jenny\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>
